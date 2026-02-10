@@ -14,13 +14,13 @@ flowchart LR
     CRM[CRM / ERP / Database]
     USER[Phone User ☎]
 
-    ORCH[Call Orchestrator<br/>(Workflow + State Machine)]
-    ADAPTER[Stringee Adapter<br/>(Call API + Webhook)]
+    ORCH[Call Orchestrator<br/>Workflow + State Machine]
+    ADAPTER[Stringee Adapter<br/>Call API + Webhook]
     STRINGEE[Stringee Platform]
     PSTN[PSTN Gateway]
 
-    MEDIA[Media Stream Service<br/>(RTP/WebRTC Bridge)]
-    BOT[AI Bot Engine<br/>(STT / TTS / NLP / LLM)]
+    MEDIA[Media Stream Service<br/>RTP/WebRTC Bridge]
+    BOT[AI Bot Engine<br/>STT/TTS/NLP/LLM]
 
     CRM --> ORCH
     ORCH --> ADAPTER
