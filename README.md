@@ -100,7 +100,7 @@ flowchart LR
     MIC[Phone Mic] --> PSTN
     PSTN --> STRINGEE[Stringee]
     STRINGEE --> MEDIA[Media Stream Service]
-    MEDIA --> BOT[AI Bot Engine (STT)]
+    MEDIA --> BOT[AI Bot Engine STT]
 
     BOT --> MEDIA
     MEDIA --> STRINGEE
